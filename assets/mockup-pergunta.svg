@@ -1,0 +1,43 @@
+<svg viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg" font-family="'Poppins','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fd4a43"/>
+      <stop offset="1" stop-color="#e23a33"/>
+    </linearGradient>
+    <filter id="sh2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="6" y="6" width="288" height="588" rx="38" fill="url(#bg2)" stroke="#c93029" stroke-width="3"/>
+  <rect x="118" y="20" width="64" height="9" rx="4.5" fill="#ffffff" opacity="0.4"/>
+  <!-- top tag -->
+  <rect x="95" y="60" width="110" height="28" rx="14" fill="#012c56"/>
+  <text x="150" y="79" text-anchor="middle" fill="#feb302" font-size="11" font-weight="700">👧 FILHA → MÃE</text>
+  <!-- question card -->
+  <rect x="28" y="120" width="244" height="320" rx="28" fill="#ffffff" filter="url(#sh2)"/>
+  <text x="50" y="166" fill="#fd4a43" font-size="13" font-weight="700">PERGUNTA</text>
+  <circle cx="232" cy="160" r="16" fill="#fef0e8"/>
+  <text x="232" y="166" text-anchor="middle" font-size="16">💬</text>
+  <!-- question text -->
+  <text x="50" y="210" fill="#012c56" font-size="17" font-weight="600">
+    <tspan x="50" dy="0">Mãe, qual foi o</tspan>
+    <tspan x="50" dy="26">momento em que você</tspan>
+    <tspan x="50" dy="26">mais se orgulhou</tspan>
+    <tspan x="50" dy="26">de mim?</tspan>
+  </text>
+  <!-- divider -->
+  <line x1="50" y1="330" x2="250" y2="330" stroke="#ffe3da" stroke-width="2"/>
+  <text x="50" y="362" fill="#9aa8b8" font-size="11">Tema: empatia &amp; escuta ativa</text>
+  <text x="50" y="384" fill="#9aa8b8" font-size="11">Tempo sugerido: 1 minuto</text>
+  <!-- heart accent -->
+  <path d="M150 408 l-7 -7 a5 5 0 1 1 7 -6 a5 5 0 1 1 7 6 z" fill="#feb302"/>
+  <!-- buttons -->
+  <rect x="40" y="465" width="100" height="54" rx="27" fill="#ffffff"/>
+  <text x="90" y="498" text-anchor="middle" fill="#fd4a43" font-size="14" font-weight="700">Pular</text>
+  <rect x="160" y="465" width="100" height="54" rx="27" fill="#012c56"/>
+  <text x="210" y="498" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">Próxima ➜</text>
+  <!-- dots -->
+  <circle cx="135" cy="548" r="4" fill="#fff" opacity="0.5"/>
+  <circle cx="150" cy="548" r="5" fill="#fff"/>
+  <circle cx="165" cy="548" r="4" fill="#fff" opacity="0.5"/>
+</svg>
